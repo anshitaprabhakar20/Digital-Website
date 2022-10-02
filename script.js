@@ -163,7 +163,7 @@ gsap.from(".seemore",{
        ease:Expo.easeInOut,
        stagger:0.2
 })
-gsap.from(".page7-div1,.page7-div2,.page7-div3,#longbtm-nav",{
+gsap.from(".page7-div1,.page7-div2,#longbtm-nav",{
      scrollTrigger:{
           trigger:"#page7",
           scroller:"#main",
