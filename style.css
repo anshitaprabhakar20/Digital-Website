@@ -311,6 +311,7 @@ html,body{
     height: 40px;
 }
 #page2 #text-page2 #about #arrow a{
+    margin-top: 10%;
     text-decoration: none;
     color: white;
 }
@@ -451,8 +452,8 @@ html,body{
     gap: 15px;
 }
 #page3 #right #learn img{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     -o-object-fit: cover;
        object-fit: cover;
@@ -474,7 +475,7 @@ html,body{
              justify-content: center;
      gap: 10px;
      padding: 10px 14px;
-     width: 12vw;
+     width: 14vw;
      height: 6vh;
      border-radius: 30px;
      border: 1px solid rgba(128, 128, 128, 0.658);
@@ -487,6 +488,10 @@ html,body{
 }
 .service i{
     font-size: 25px;
+}
+.service img{
+    transform: rotate(90deg);
+    width: 30px;
 }
 .service .service-green{
     position: absolute;
@@ -825,7 +830,7 @@ html,body{
   }
   #page7{
     width: 100vw;
-    min-height: 100vh;
+    min-height: 80vh;
   }
   #page7 #page7-top{
     width: 100vw;
@@ -907,13 +912,29 @@ html,body{
     font-family: Cooper;
     font-weight: 100;
 }
-#call .service{
+#call #page7-rqst{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     color: white;
     border: 2px solid gray;
     width: 220px;
+    border-radius: 30px;
     margin-top: -2%;
+    overflow: hidden;
 }
-#call .service a{
+#call #page7-rqst img{
+    position: relative;
+    z-index: 9999999999;
+    margin-top: 1%;
+    transform: rotate(360deg);
+}
+#call #page7-rqst a{
+    position: relative;
+    z-index: 9999999999;
+    text-decoration: none;
     color: white;
     font-size: 14px;
     font-weight: 600;
@@ -944,6 +965,47 @@ html,body{
 }
 .page7-div1{
     margin-top: -7%;
+}
+.talk #longarrow7{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+.talk #longarrow7 img{
+    position: relative;
+    z-index: 9999999999;
+}
+   .green7{
+    width: 100%;
+    height: 100%;
+    background-color: springgreen;
+    position: absolute;
+    left: -100%;
+    z-index: 99999;
+    transition: ease .6s;
+}
+  
+#page7-rqst .green71{
+    width: 100%;
+    height: 100%;
+    background-color: springgreen;
+    position: absolute;
+    left: -100%;
+    z-index: 99999;
+    transition: ease .6s;
+}
+.talk #longarrow7:hover .green7{
+    left: 0%;
+}
+#page7-rqst:hover .green71{
+    left: 0%;
 }
 #page7-div .page7-div1 h1{
     font-family: cooper;
@@ -1029,7 +1091,7 @@ html,body{
             align-items: center;
     position: absolute;
     gap: 160px;
-    bottom: 0;
+    bottom: 10%;
     width: 86vw;
     height: 8vh;
     border-top: 1px solid rgba(255, 255, 255, 0.493);
@@ -1737,6 +1799,157 @@ html,body{
     border: 1px solid white;
     border-radius: 30px;
     font-size: 22px;
+}
+#call{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+    position: relative;
+    left: 2%;
+    bottom: 5%;
+}
+#call img{
+    margin-top: -5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#call #sound-h2{
+    color: white;
+    font-family: Cooper;
+    font-weight: 100;
+}
+#call #page7-rqst{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 2px solid gray;
+    width: 85px;
+    border-radius: 30px;
+    margin-top: -2%;
+    margin-left: -13%;
+    overflow: hidden;
+}
+#call #page7-rqst img{
+    position: relative;
+    z-index: 9999999999;
+    margin-top: 1%;
+    transform: rotate(360deg);
+    width: 30px;
+}
+#call #page7-rqst a{
+    display: none;
+    position: relative;
+    z-index: 9999999999;
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+    font-weight: 600;
+}
+.page7-div2{
+    position: absolute;
+    top: 25%;
+}
+.page7-div2 h1{
+    font-size: 4vw;
+}
+#one{
+    left: 10%
+}
+#two{
+    left:45%;
+}
+#three{
+    left: 80%;
+}
+.page7-div1{
+    display: none;
+}
+.page7-div3{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.box{
+    width: 40px;
+}
+.box:nth-child(1){
+    position: absolute;
+    top: 33%;
+    left: 10%;
+}
+.box:nth-child(2){
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.box:nth-child(3){
+    position: absolute;
+    top: 35%;
+    left: 70%;
+}
+.page7-div3 .box:nth-child(1){
+    margin-top: 10%;
+    padding: 2px;
+    width: 90px;
+    height: 50px;
+    background-position: center;
+}
+.page7-div3 .box:nth-child(2){
+    padding: 2px;
+    width: 100px;
+    height: 70px;
+    background-position: center;
+}
+.page7-div3 .box:nth-child(3){
+    padding: 2px;
+    width: 95px;
+    height: 70px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#longbtm-nav h2{
+    font-size: 15px;
+}
+#longbtm-nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    gap: 12px;
+    bottom: 10%;
+    width: 86vw;
+    height: 8vh;
+    border-top: 1px solid rgba(255, 255, 255, 0.493);
+}
+#longbtm-nav #li{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+}
+.w-full{
+    font-size: 12px;
+    margin-top: 3%;
 }
 
 }

@@ -163,15 +163,15 @@ gsap.from(".seemore",{
        ease:Expo.easeInOut,
        stagger:0.2
 })
-gsap.from(".page7-div1,.page7-div2,.page7-div3,#longbtm-nav",{
-     scrollTrigger:{
-          trigger:"#page7",
-          scroller:"#main",
-          start:"top 60%",
-       },
-       y:30,
-       duration:2,
-       opacity:0,
-       ease:Expo.easeInOut,
-       stagger:0.2
-})
+// gsap.from(".page7-div1,.page7-div2,.page7-div3,#longbtm-nav",{
+//      scrollTrigger:{
+//           trigger:"#page7",
+//           scroller:"#main",
+//           start:"top 60%",
+//        },
+//        y:30,
+//        duration:2,
+//        opacity:0,
+//        ease:Expo.easeInOut,
+//        stagger:0.2
+// })
