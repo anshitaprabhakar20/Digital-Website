@@ -1712,17 +1712,17 @@ html,body{
     font-family: Cooper;
     font-weight: 100;
 }
-#call .service{
+.service{
     color: white;
     border: 2px solid gray;
     width: 80px;
-    margin-left: -13%;
+    margin-left: 4%;
     margin-top: -2%;
 }
-#call .service i{
+.service i{
     margin-left: -20%;
 }
-#call .service a{
+.service a{
     display: none;
     color: white;
     font-size: 14px;
@@ -1746,20 +1746,19 @@ html,body{
     padding-left: 3%;
 }
 #page7-div .page7-div1 {
-    position: relative;
-    width: 35vw;
+    position:absolute;
+    top: 60%;
+    left: 30%;
+    width: 100vw;
     height: 22vh;
     z-index: 9999999;
 }
 #page7-div .page7-div2{
     margin-top: -10%;
 }
-.page7-div1{
-    margin-top: -7%;
-}
 #page7-div .page7-div1 h1{
     font-family: cooper;
-    font-size: 3vw;
+    font-size: 7vw;
     color: white;
     width: 60%;
     letter-spacing: 2px;
@@ -1767,10 +1766,10 @@ html,body{
 #page7-div .page7-div1 h1::after{
     content: "";
     position: absolute;
-    top: 30%;
+    top: 18%;
     left: -4%;
-    width: 13vw;
-    height: 9vh;
+    width: 33vw;
+    height: 7vh;
     background-image: url(circle-green.svg);
     background-size: cover;
 }
@@ -1871,9 +1870,6 @@ html,body{
 #three{
     left: 80%;
 }
-.page7-div1{
-    display: none;
-}
 .page7-div3{
     display: flex;
     align-items: center;
@@ -1951,5 +1947,4 @@ html,body{
     font-size: 12px;
     margin-top: 3%;
 }
-
 }
